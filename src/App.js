@@ -9,13 +9,13 @@ const proj = [
   {
     id: 1,
     name: 'Budget Tracker',
-    img: 'https://github.com/mhans19/mhansen-react-portfolio/src/assets/images/budgettracker.PNG',
+    img: 'budgettracker.PNG',
     url: 'https://ancient-dawn-71078.herokuapp.com/'
   },
   {
     id: 2,
     name: 'codeBloggers',
-    img: 'https://github.com/mhans19/mhansen-react-portfolio/src/assets/images/codeBloggers.PNG',
+    img: 'codebloggers.PNG',
     url: 'https://infinite-springs-68982.herokuapp.com/'
   },
   {
@@ -39,7 +39,7 @@ const proj = [
   {
     id: 6,
     name: 'Horiseon',
-    img: 'horiseon.JPG',
+    img: 'horiseon.jpg',
     url: 'https://mhans19.github.io/challenge1-accessibility/'
   },
   {
@@ -63,7 +63,7 @@ const proj = [
   {
     id: 10,
     name: 'Run Buddy',
-    img: 'runbuddy.JPG',
+    img: 'runbuddy.jpg',
     url: 'https://lernantino.github.io/run-buddy/'
   },
   {
