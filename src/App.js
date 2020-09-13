@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 const proj = [
   {
@@ -108,6 +109,7 @@ function App() {
         <Projects proj={proj} />
         <ContactForm></ContactForm>
       </div>
+      <Footer></Footer>
   </div>
   );
 }
