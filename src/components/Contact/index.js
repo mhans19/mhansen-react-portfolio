@@ -38,7 +38,6 @@ function ContactForm() {
 
     return (
     <section id = "contact">
-        <h1 className = "header">Contact</h1>
         <form id="contact-form" className = "signup-form p-4" onSubmit={handleSubmit}>
             <h2 class = "text-center font-weight-bold">Contact Me</h2>
             <div className = "form-group row">

@@ -1,5 +1,5 @@
-import React from 'react';
-import Nav from './components/Nav';
+import React, { useState } from 'react';
+import NavigationBar from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
 import ContactForm from './components/Contact';
@@ -100,17 +100,35 @@ const proj = [
 ];
 
 function App() {
+
+  const [currentPage, handlePageChange] = useState('Hero');
+
+    const PopulatePage = () => {
+      switch (currentPage) {
+        case 'About':
+          return <About />;
+        // case 'Resume':
+        //   return <Resume />;
+        case 'Projects':
+          return <Projects proj={proj} />;
+        case 'ContactForm':
+          return <ContactForm />;
+        default:
+          return <Hero />;
+      }
+    };
+
+
   return (
-  <div class = "wrapper">
-      <Nav></Nav>
-      <div class="main_content">
-        <Hero></Hero>
-        <About></About>
-        <Projects proj={proj} />
-        <ContactForm></ContactForm>
+    <main>
+        <div>
+            <NavigationBar currentPage={currentPage} handlePageChange={handlePageChange}></NavigationBar>
+            <div>{PopulatePage(currentPage)}</div>
+        </div>
+        <div>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
-  </div>
+    </main>
   );
 }
 

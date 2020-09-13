@@ -1,15 +1,12 @@
 import React from 'react';
 import coverImage from "../../assets/cover/trees.jpg";
+import { Jumbotron, Image } from 'react-bootstrap';
 
 function Hero() {
   return (
-    <div className="hero">
-        <img src={coverImage} className="img-fluid" alt="Trees image" />
-        <h3 className="bottom-right">
-            If opportunity doesn’t knock, build a door.<br></br>
-            - Milton Berle
-        </h3>
-    </div>
+    <Jumbotron id = "home" style = {{ background: 'white' }}>
+        <Image src={coverImage} fluid rounded />
+    </Jumbotron>
   );
 }
 
