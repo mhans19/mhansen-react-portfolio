@@ -33,6 +33,7 @@ return (
             <li>
                 <a href="#contact">
                     <img src="https://img.icons8.com/carbon-copy/48/000000/envelope-dots.png"/>
+                    <p>Contact</p>
                 </a>
             </li>
         </ul> 
