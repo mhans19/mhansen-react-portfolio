@@ -3,8 +3,10 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function NavigationBar (props) {
     const pages = [
+        'Home',
         'About',
-        'Resume',
+        'Education',
+        'Experience',
         'Projects',
         'Contact'
     ]
