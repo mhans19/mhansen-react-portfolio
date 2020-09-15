@@ -114,7 +114,7 @@ const schools = [
       school: 'Utah State University',
       degree : 'Master of Science - Quantitative Psychology',
       graduated: 'December 2018',
-      logo: 'ususeal.png'
+      logo: 'usulogo.png'
   },
   {
       schoolid: 3,
