@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers'
 
-function ContactForm() {
+function Contact() {
 
     const [errorMessage, setErrorMessage] = useState('');
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
-
-
 
     function handleChange(e) {
         if (e.target.name === 'email') {
@@ -38,8 +36,9 @@ function ContactForm() {
 
     return (
     <section id = "contact">
+        <h1 className = "header text-center">Contact Me</h1>
         <form id="contact-form" className = "signup-form p-4" onSubmit={handleSubmit}>
-            <h2 class = "text-center font-weight-bold">Contact Me</h2>
+            <h3 class = "text-center">I look forward to connecting with you.</h3>
             <div className = "form-group row">
                 <label htmlFor="name" className = "col-sm-2 col-form-label font-weight-bold"><img src="https://img.icons8.com/pastel-glyph/36/000000/person-male.png"/>Name:</label>
                 <div class="col-sm-10">
@@ -73,4 +72,4 @@ function ContactForm() {
     )
 }
 
-export default ContactForm;
+export default Contact;

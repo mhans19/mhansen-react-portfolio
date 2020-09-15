@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
@@ -178,13 +178,12 @@ function App() {
           return <Experience jobs = {jobs} />;
         case 'Projects':
           return <Projects proj={proj} />;
-        case 'ContactForm':
-          return <ContactForm />;
+        case 'Contact':
+          return <Contact />;
         default:
           return <Hero />;
       }
     };
-
 
   return (
     <main>
