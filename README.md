@@ -135,5 +135,5 @@ This application was developed with the following application structures:
 ---
 
 ## **FUNCTIONALITY**  
-1. In an internet browser, navigate to [deployed application](http://hidden-badlands-64622.herokuapp.com/).
+1. In an internet browser, navigate to [deployed application](https://mhans19.github.io/mhansen-react-portfolio/).
 ![](src\assets\Screenshot.PNG)  
