@@ -3,7 +3,6 @@ import React from "react";
 const Footer = () => (
   <div className="footer">
     <div class="social_media">
-      Thanks for checkout out my portfolio!<br></br>
       &copy;Morgan Hansen<br></br>
       <a href="https://github.com/mhans19?tab=repositories" target="_blank" rel="noopener noreferrer">
           <img src="https://img.icons8.com/material-outlined/32/000000/github.png"/>

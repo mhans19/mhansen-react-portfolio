@@ -3,16 +3,14 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function NavigationBar (props) {
     const pages = [
-        'Home',
-        'About',
-        'Education',
-        'Experience',
-        'Projects',
+        'About Me',
+        'Resume',
+        'Portfolio',
         'Contact'
     ]
     return (
         <Navbar bg="light" variant="light">
-            <Navbar.Brand href="#home">MORGAN HANSEN</Navbar.Brand>
+            <Navbar.Brand href="#about">MORGAN HANSEN</Navbar.Brand>
             <Nav className="ml-auto">
                 {pages.map(page => (
                         <li className="nav-item" key={page}>

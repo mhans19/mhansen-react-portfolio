@@ -9,12 +9,11 @@ padding: 0;
 }
 
 .footer{
-  width: 100%;
-  padding: 5px;
-  background-color: var(--grey);
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  text-align: center;
-  color: var(--softgrey);
-  position: fixed;
+  text-align: left;
+  color: var(--grey);
 }

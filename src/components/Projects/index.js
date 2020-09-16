@@ -3,8 +3,8 @@ import { Card, Button } from 'react-bootstrap';
 
 function Projects(props) {
   return (
-    <div id="projects">
-      <h1 className = "header text-center">Projects</h1>
+    <div id="portfolio">
+      <h1 className = "header text-center">Portfolio</h1>
         <div class="container my-4">
             <div class="row">
                 {props.proj.map(item => (
@@ -12,8 +12,8 @@ function Projects(props) {
                       <Card.Img variant="top" src={require(`../../assets/images/${item.img}`)}/>
                       <Card.Body className = "text-center">
                           <Card.Title>{item.name}</Card.Title>
-                          <Button className = "mx-1" href={item.url} variant="secondary">Repository</Button>
-                          <Button href={item.url} variant="secondary">Application</Button>
+                          <Button className = "mx-1" href={item.repo} variant="secondary" target='_blank'>Repository</Button>
+                          <Button href={item.url} variant="secondary" target='_blank'>Application</Button>
                       </Card.Body>
                     </Card>
                 ))}
