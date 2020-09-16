@@ -36,22 +36,22 @@ function Contact() {
 
     return (
     <section id = "contact">
-        <h1 className = "header text-center">Contact Me</h1>
+        <h1 className = "header text-center text-info">Contact Me</h1>
         <form id="contact-form" className = "signup-form p-4" onSubmit={handleSubmit}>
             <h3 class = "text-center">I look forward to connecting with you.</h3>
-            <div className = "form-group row">
+            <div className = "form-group row text-info">
                 <label htmlFor="name" className = "col-sm-2 col-form-label font-weight-bold"><img src="https://img.icons8.com/pastel-glyph/36/000000/person-male.png"/>Name:</label>
                 <div class="col-sm-10">
                     <input type="text" className="form-control" name="name" defaultValue={name} onBlur={handleChange}/>
                 </div>
             </div>
-            <div className = "form-group row">
+            <div className = "form-group row text-info">
                 <label htmlFor="email" className="col-sm-2 col-form-label font-weight-bold"><img src="https://img.icons8.com/ios/32/000000/email-open.png"/> Email:</label>
                 <div class="col-sm-10">
                     <input type="email" className="form-control" name="email" defaultValue={email} onBlur={handleChange}/>
                 </div>
             </div>
-            <div className = "form-group row">
+            <div className = "form-group row text-info">
                 <label htmlFor="message" className="col-sm-2 col-form-label font-weight-bold"><img src="https://img.icons8.com/ios/36/000000/hand-with-pen.png"/> Message:</label>
                 <div class="col-sm-10">
                     <textarea name="message" className="form-control" rows="5" defaultValue={message} onBlur={handleChange}/>
@@ -64,7 +64,7 @@ function Contact() {
             )}
             <div class="form-group row">
                 <div class="col-sm-12">
-                <button data-testid="buttontag" type="submit" class="btn btn-secondary btn-block font-weight-bold"><img src="https://img.icons8.com/dotty/32/FFFFFF/submit-for-approval.png"/> Submit</button>
+                <button data-testid="buttontag" type="submit" class="btn btn-info btn-block font-weight-bold"><img src="https://img.icons8.com/dotty/32/FFFFFF/submit-for-approval.png"/> Submit</button>
                 </div>
             </div>
         </form>
