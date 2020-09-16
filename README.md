@@ -29,7 +29,7 @@
 ---
 
 ## **APPLICATION LINKS**
-> [Live Heroku Application](https://mhans19.github.io/mhansen-react-portfolio/)   
+> [Live Application](https://mhans19.github.io/mhansen-react-portfolio/)   
 > [GitHub Repository](https://github.com/mhans19/mhansen-react-portfolio)  
 
 ---
