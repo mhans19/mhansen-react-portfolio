@@ -5,14 +5,14 @@ import { Card } from 'react-bootstrap';
 function About() {
   return (
   <div id="about">
-    <h1 className = "header text-center">About Me</h1>
+    <h1 className = "header text-center text-info">About Me</h1>
     <div className="container">
       <div className="row">
           <img style = {{ width: '200px', height: 'auto' }} className="rounded-circle mx-auto d-block" src={profilepic}/>
           <div>
               <Card className="my-1 border-0">
                   <Card.Body>    
-                      <Card.Title className = "text-center header">Hi. I'm Morgan Hansen.</Card.Title>                       
+                      <Card.Title className = "text-center header">Hi. I'm <span className = "text-info">Morgan Hansen.</span></Card.Title>                       
                       <Card.Subtitle className = "text-center mb-1">I'm a Utah based Data Scientist and Full Stack Web Developer.</Card.Subtitle>
                       <Card.Subtitle className = "text-center mb-2">I have strong skills and interests in statistics, research, and web development.</Card.Subtitle>
                       <Card.Text>
