@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 function About() {
   return (
   <div id="about">
-    <h1 className = "header text-center text-info">About Me</h1>
+    <h1 className = "header text-center text-info">THIS IS A TEST</h1>
     <div className="container">
       <div className="row">
           <img style = {{ width: '200px', height: 'auto' }} className="rounded-circle mx-auto d-block" src={profilepic}/>
