@@ -8,7 +8,7 @@ function Projects(props) {
         <div class="container my-4">
             <div class="row">
                 {props.proj.map(item => (
-                    <Card style={{ width: '22rem', margin: '10px', padding:'10px' }} className = "border-info">
+                    <Card style={{ width: '18rem', margin: '10px', padding:'10px' }} className = "border-info">
                       <Card.Img variant="top" src={require(`../../assets/images/${item.img}`)}/>
                       <Card.Body className = "text-center">
                           <Card.Title>{item.name}</Card.Title>
