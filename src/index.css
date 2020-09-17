@@ -17,3 +17,26 @@ padding: 0;
   text-align: left;
   color: var(--grey);
 }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  h1 {
+     font-size: 30vw;
+   }}
+
+ /* // Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) { h1 {
+     font-size: 100vw;
+   }}
+
+ /* // Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) { h1 {
+     font-size: 150vw;
+   } }
+
+ /* // Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+ h1 {
+     font-size: 200vw;
+   }
+
+  }

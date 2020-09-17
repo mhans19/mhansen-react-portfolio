@@ -12,7 +12,7 @@ function Resume(props) {
                 {props.experiences.map(item => (
                     <div className="row">
                         <div className="col-lg-2">
-                            <img style = {{ width: '175px', height: 'auto' }} className="rounded-circle mx-auto d-block" src={require(`../../assets/images/${item.logo}`)}/>
+                            <img style = {{ width: '150px', height: 'auto' }} className="rounded-circle mx-auto d-block" src={require(`../../assets/images/${item.logo}`)}/>
                         </div>
                         <div className="col-lg-10">
                             <Card className="border-0 my-1">
